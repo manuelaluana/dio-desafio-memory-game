@@ -50,6 +50,6 @@ function checkMatch() {
 
   openCards = [];
   if (document.querySelectorAll(".boxMatch").length == emojis.length) {
-    alert("Você venceu!");
+    alert("Você venceu! Você virou todas as " + emojis.length + " cartas");
   }
 }

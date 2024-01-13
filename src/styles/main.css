@@ -71,6 +71,7 @@ h2 {
   font-size: 3em;
   transform: rotateY(180deg);
   transition: 0.25s;
+  border-radius: 10px;
 }
 
 .item::after {
@@ -81,6 +82,7 @@ h2 {
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .item.boxOpen {
@@ -89,5 +91,5 @@ h2 {
 
 .boxOpen::after,
 .boxMatch::after {
-  transform: rotateY(180deg);
+  transform: rotateY(90deg);
 }
